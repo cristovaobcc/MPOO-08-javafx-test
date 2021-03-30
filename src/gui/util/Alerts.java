@@ -17,7 +17,7 @@ public class Alerts {
 	 * @param title String
 	 * @param header String
 	 * @param content String
-	 * @param type {@link AlertType}
+	 * @param type {@link AlertType} é uma Enumeration.
 	 */
 	public static void showAlert(String title, String header, String content, AlertType type) {
 		Alert alert = new Alert(type);
