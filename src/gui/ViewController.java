@@ -20,6 +20,7 @@ public class ViewController {
 	@FXML // método que será acionado quando o botão btTest for clicado.
 	public void onBtTestAction() {
 		Alerts.showAlert("Alert title", "Alert header", "Hello Alert!", AlertType.INFORMATION);
+		Alerts.showAlert("Alert with no header", null, "Alert with no header", AlertType.WARNING);
 	}
 
 	
