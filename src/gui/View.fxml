@@ -13,10 +13,10 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="37.0" layoutY="64.0" promptText="First number" />
-      <TextField layoutX="37.0" layoutY="126.0" promptText="Second Number" />
-      <Button layoutX="37.0" layoutY="173.0" mnemonicParsing="false" text="Sum" />
+      <TextField fx:id="txtNumber1" layoutX="37.0" layoutY="64.0" promptText="First number" />
+      <TextField fx:id="txtNumber2" layoutX="37.0" layoutY="126.0" promptText="Second Number" />
+      <Button fx:id="btSum" layoutX="37.0" layoutY="173.0" mnemonicParsing="false" onAction="#onBtSumAction" text="Sum" />
       <Label layoutX="37.0" layoutY="225.0" text="Result:" />
-      <Label layoutX="97.0" layoutY="225.0" />
+      <Label fx:id="labelResult" layoutX="97.0" layoutY="225.0" />
    </children>
 </AnchorPane>
