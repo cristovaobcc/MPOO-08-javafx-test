@@ -3,7 +3,9 @@
  */
 package gui;
 
+import gui.util.Alerts;
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 
 /**
@@ -17,7 +19,7 @@ public class ViewController {
 	
 	@FXML // método que será acionado quando o botão btTest for clicado.
 	public void onBtTestAction() {
-		System.out.println("Click!");
+		Alerts.showAlert("Alert title", "Alert header", "Hello Alert!", AlertType.INFORMATION);
 	}
 
 	
